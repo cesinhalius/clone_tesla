@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 
+
 export const Container = styled.div`
   .colored:nth-child(1){
       background: #f1ffe7;
@@ -25,6 +26,6 @@ export const Container = styled.div`
 `;
 
 export const Spacer = styled.div`
-height: 15vh;
+
 background: #77e68c;
 `;

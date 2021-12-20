@@ -64,6 +64,7 @@ export const Footer = styled(motion.footer)`
     }
   }
   margin-bottom: 30px;
+  
   @media (min-width: 600px) {
     margin-bottom: 38px;
     ul {

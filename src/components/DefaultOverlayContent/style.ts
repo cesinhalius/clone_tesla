@@ -55,6 +55,11 @@ export const Buttons = styled.div`
       color: #1a1720;
       opacity: 0.65;
     }
+    &.white:hover{
+      background: #1a1720;
+      color: #fff;
+      transition: 5s;
+    }
     & + button {
       margin: 10px 0 0;
     }
