@@ -3,7 +3,7 @@ import { useTransform } from 'framer-motion';
 import { useWrapperScroll } from '../Model';
 
 
-import { Container,Header, Footer, Logo, Burger } from './style';
+import { Container,Header, Footer, Logo, Img} from './style';
 
 const UniqueOverlay: React.FC = () => {
   const {scrollYProgress} = useWrapperScroll()
@@ -14,11 +14,37 @@ const UniqueOverlay: React.FC = () => {
       <Container>
           <Header>
               <Logo/>
-              <Burger/>
+              <ul>
+                  <li>
+                    <a href="#">Model S</a>
+                  </li>
+                  <li>
+                      <a href="#">Model 3</a>
+                  </li>
+                  <li>
+                      <a href="#">Model X</a>
+                  </li>
+                  <li>
+                      <a href="#">Model Y</a>
+                  </li>
+              </ul>
+              <Img/>
           </Header>
 
           <Footer style={{ opacity }}>
               <ul>
+                  <li>
+                      <a href="#">UI</a>
+                  </li>
+                  <li>
+                      <a href="#">UI</a>
+                  </li>
+                  <li>
+                      <a href="#">UI</a>
+                  </li>
+                  <li>
+                      <a href="#">UI</a>
+                  </li>
                   <li>
                       <a href="#">UI</a>
                   </li>
